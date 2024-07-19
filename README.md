@@ -18,3 +18,11 @@ The ntpu-rock-helper project is designed to manage and streamline the reservatio
 7. Reservation Cancellation Management:
      - Prevents cancellation of past reservations.
      - Ensures only existing reservations can be cancelled.
+5. Course and Activity Management:
+     - Teachers: Select specific time intervals on designated weekdays to schedule courses for club members.
+     - Managers: Add activities without any restrictions.
+7. Script Status Manager:
+     - File Verification: Checks daily to ensure that all necessary spreadsheets (timetable and recording) exist.
+     - Automatic Creation: Creates missing files if any are not found.
+     - Semester Management: Calculates band reservation hours from the previous semester for billing purposes and generates new spreadsheets for the upcoming semester, updating available reservation times.
+
