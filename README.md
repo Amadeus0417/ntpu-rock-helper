@@ -3,3 +3,18 @@ An automated system dealing with responses from Google form to Google Spreadshee
 
 # Purpose
 The ntpu-rock-helper project is designed to manage and streamline the reservation process for the NTPU rock music club. It automates handling of band reservations, personal practice sessions, and reservation cancellations, ensuring adherence to club policies and efficient use of practice spaces.
+
+# Features
+1. Automated Form Response Handling:
+     - Activates upon receiving a Google Form response.
+3. Band Reservation Management:
+     - Only allows advance reservations.  
+     - Ensures the selected time interval is available.  
+     - Restricts reservations on closing dates.  
+5. Personal Practice Management:
+     - Accepts only same-day reservations.
+     - Validates time intervals for availability.
+     - Ensures reservations do not extend to the next day.
+7. Reservation Cancellation Management:
+     - Prevents cancellation of past reservations.
+     - Ensures only existing reservations can be cancelled.
